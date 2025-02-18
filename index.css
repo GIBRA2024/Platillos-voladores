@@ -1,0 +1,95 @@
+/* Reset */
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    line-height: 1.6;
+    color: #0a1927;
+    background-color: white;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    /* Imagen de fondo */
+    background-image: url('LOGO PLATILLOS.png'); /* Cambia esto con la ruta de tu imagen */
+    background-size: contain; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: bottom; /* Centra la imagen */
+    background-repeat: no-repeat;
+}
+
+/* Encabezado */
+.contact-header {
+    text-align: center;
+    background-color: #874eaf;
+    color: white;
+    padding: 20px 10px;
+}
+
+.contact-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    font-size: 1.2rem;
+}
+
+/* Contenedor principal */
+.container {
+    flex: 1;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #874eaf;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #874eaf;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    font-size: 1.2rem;
+    width: 250px;
+}
+
+.link i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.link:hover {
+    background-color: #874eaf;
+    transform: translateY(-5px);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #874eaf;
+    color: #f9f9f9;
+    font-size: 0.9rem;
+    margin-top: auto;
+}

@@ -20,7 +20,7 @@ function enviarWhatsApp(formId, camposObligatorios, numeroDestino) {
     }
 
     // Construir el mensaje
-    let mensajeCompleto = "";
+    let mensajeCompleto = "Facturacion electrónica\n\n";
     for (const [campo, valor] of Object.entries(datosFormulario)) {
         if (valor) {
             mensajeCompleto += `${campo.charAt(0).toUpperCase() + campo.slice(1)}: ${valor}\n`;

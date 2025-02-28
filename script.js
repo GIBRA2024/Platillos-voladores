@@ -39,14 +39,14 @@ function enviarWhatsApp(formId, camposObligatorios, numeroDestino) {
 
 // Función para enviar WhatsApp para Persona Natural
 function enviarWhatsAppPersonaNatural() {
-    const camposObligatorios = ["nombre", "tipoDocumento", "numeroDocumento", "direccion", "correo"];
+    const camposObligatorios = ["mesa", "nombre", "tipoDocumento", "numeroDocumento", "direccion", "correo"];
     const numeroDestino = "573176393003"; // Cambia esto al número de tu negocio
     enviarWhatsApp("cotizacionForm", camposObligatorios, numeroDestino);
 }
 
 // Función para enviar WhatsApp para Persona Jurídica
 function enviarWhatsAppPersonaJuridica() {
-    const camposObligatorios = ["razonSocial", "numeroNit", "direccion", "correo"];
+    const camposObligatorios = ["mesa", "razonSocial", "numeroNit", "direccion", "correo"];
     const numeroDestino = "573176393003"; // Cambia esto al número de tu negocio
     enviarWhatsApp("cotizacionForm", camposObligatorios, numeroDestino);
 }

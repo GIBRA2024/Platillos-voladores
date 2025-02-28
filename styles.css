@@ -34,6 +34,7 @@ body {
 
 /* Formulario */
 .form-container {
+    width: 350px;
     margin: 30px auto;
     padding: 20px;
     background-color: white;
@@ -103,6 +104,12 @@ footer {
     font-size: 0.9rem;
     margin-top: auto;
 }
+
+.link-footer {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
 
 
 input[type="number"]::-webkit-inner-spin-button,
